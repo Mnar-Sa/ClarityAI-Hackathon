@@ -26,6 +26,9 @@ As shown in our **MindMap Architecture Diagram**, the system is built on a robus
 
 ## 📂 Repository Assets
 - `MindMap.jpg`: Full architectural breakdown and project slides.
+- `PoC_Knowledge_Integration_and_Context.png`: Proof-of-concept demonstrating knowledge grounding and contextual understanding.
+- `PoC_Agent_Configuration_and_Response.png`: Screenshot showing the MindMap agent configuration in IBM watsonx Orchestrate and a live supportive response generated during a user interaction.
+- `PoC_Responsible_AI_Behavior_Guidelines.png` : Screenshot for the guidelines.
 - `ClarityAI_MockData.csv`: Synthetic data used for Risk Scoring Engine testing.
 - `ClarityAI_MockData_Schema.json`: Technical specifications of the data model.
 
