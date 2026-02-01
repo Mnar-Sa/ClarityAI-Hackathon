@@ -1,0 +1,15 @@
+{
+  "record_id": "string (unique)",
+  "timestamp_utc": "ISO-8601 UTC timestamp",
+  "age_band": "string (e.g., '10-12', '13-15', '16-18')",
+  "context": "string (journal_entry | school_reflection | chat_reflection)",
+  "language": "string (BCP-47 code)",
+  "text_anonymized": "string (no PII)",
+  "sentiment": "string (positive | neutral | negative)",
+  "emotions_top": "array<string> (top detected emotions)",
+  "risk_level": "string (low | medium | high) — non-clinical",
+  "risk_score": "number (0..1)",
+  "signals": "array<string> (e.g., 'social_withdrawal', 'sleep_disruption')",
+  "explanation": "string (brief, explainable summary)",
+  "recommended_action": "string (supportive, non-clinical guidance)"
+}
